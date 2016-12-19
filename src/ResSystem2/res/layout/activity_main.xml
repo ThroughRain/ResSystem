@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@drawable/eleme"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="30dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <TextView
+         android:text="欢迎使用本点餐系统"
+         android:textColor="@color/title"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginBottom="25dip"
+         android:textSize="24.5sp" />
+
+      <Button
+          android:id="@+id/serve"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="查询订桌" />
+
+      <Button
+          android:id="@+id/caidan"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="菜单" />
+
+      <Button
+          android:id="@+id/tongji"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="销量统计" />
+
+      <Button
+          android:id="@+id/pay"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="付款" />
+
+   </LinearLayout>
+</LinearLayout>
+    
